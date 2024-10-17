@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        nav h3{
+            margin: 10px;
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <div style="text-align: center; background-color: aqua;  margin: 0 auto;">
+
+            <h1>JBK Restaurant Pune</h1>
+           
+        </div>
+        <div> <div ><nav style="display: flex; justify-content: flex-end; font-size: 25px; background-color: chartreuse;">
+            <h3><a href="index.html">Home</a></h3>
+             <h3><a href="Gallery.html">Gallery</a></h3>
+             <h3><a href="About.html">About</a></h3>
+             <h3><a href="Contactus.html">Contact Us</a></h3>
+             <h3><a href="DineIn.html">Dine In</a></h3>
+            </nav>
+         </div>
+        </div>
+    </header>
+    <h1 style="text-align: center; background-color: rgb(255, 0, 119);">Please Fill the Details</h1><br><br>
+    <form action="#" style="text-align: center;">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" > <br><br>
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" pattern="[0-9]{10}"  placeholder="10-digit number"> <br><br>
+        <label for="date">Date of Visit:</label>
+        <input type="date" id="date" name="date" ><br><br>
+        <label for="time">Time of Visit:</label>
+        <input type="time" id="time" name="time" ><br><br>
+        <label for="guests">Number of Guests:</label>
+        <select id="guests" name="guests" >
+            <option value="" disabled selected>Select number of guests</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8+">8 or more</option>
+        </select><br><br>
+        
+        
+
+
+<button>Submit</button>
+<br><br><br><br><br><br><br>
+    </form>
+    <footer>
+        <div style="display: flex; justify-content: space-around ; background-color: rgb(158, 121, 164); text-decoration:color(srgb red green blue)">
+        <h3>For Bookings</h3>
+        <H3>Address</H3>
+        <h3>Map</h3>
+
+    </div>
+    <hr>
+
+    <div style="display: flex; justify-content: space-around">
+
+        <h2> Call : 9156615668</h2>
+        <h2>Sinhgad Road, Narhe, Pune</h2>
+        <h2>Food Menu</h2>
+    </div>
+    <hr>
+    </footer>
+</body>
+</html>
